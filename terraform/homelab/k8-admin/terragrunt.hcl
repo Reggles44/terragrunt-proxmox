@@ -14,5 +14,6 @@ inputs = {
   proxmox_password = include.root.locals.proxmox_password
   opnsense_key     = include.root.locals.opnsense_key
   opnsense_secret  = include.root.locals.opnsense_secret
-  ip               = "192.168.10.121"
+  ip               = "192.168.8."
+  vmid             = "1001"
 }

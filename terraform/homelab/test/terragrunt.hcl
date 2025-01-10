@@ -4,7 +4,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:proxmox-kubernetes/terraform-k8-node.git"
+  source = "git@github.com:proxmox-kubernetes/terraform-test.git"
 }
 
 inputs = {
@@ -12,7 +12,7 @@ inputs = {
   proxmox_node     = include.root.locals.proxmox_node
   proxmox_user     = include.root.locals.proxmox_user
   proxmox_password = include.root.locals.proxmox_password
-  vmid             = "1000"
-  node_count       = 1
+  vmid             = "9999"
 }
+
 

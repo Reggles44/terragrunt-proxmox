@@ -14,5 +14,8 @@ inputs = {
   proxmox_password = include.root.locals.proxmox_password
   vmid             = "1000"
   node_count       = 1
+  ip_address       = "192.168.8.100"
+  gateway          = "192.168.8.1"
+  vlan_tag         = 0
 }
 

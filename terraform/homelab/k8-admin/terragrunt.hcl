@@ -13,7 +13,7 @@ inputs = {
   proxmox_user     = include.root.locals.proxmox_user
   proxmox_password = include.root.locals.proxmox_password
   vmid             = "1000"
-  ip_address       = "192.168.8.100/24"
+  ip_address       = "192.168.8.100"
   gateway          = "192.168.8.1"
-
+  vlan_tag         = 0
 }

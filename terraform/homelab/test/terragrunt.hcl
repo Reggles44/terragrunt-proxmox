@@ -12,7 +12,7 @@ inputs = {
   proxmox_node     = include.root.locals.proxmox_node
   proxmox_user     = include.root.locals.proxmox_user
   proxmox_password = include.root.locals.proxmox_password
-  vmid             = "9999"
+  vmid             = "999"
 }
 
 

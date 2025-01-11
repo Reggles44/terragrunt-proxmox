@@ -21,3 +21,5 @@ terragrunt
 
 
 */**/creds.hcl
+
+*.json
